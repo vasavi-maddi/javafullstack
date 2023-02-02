@@ -63,7 +63,7 @@ h2 {
     width: 95vw;
     padding: 10px 15px 20px 20px;
   }
-  footer {
+  footer{
     margin-top: 20vh;
   }
 }
@@ -281,25 +281,28 @@ h2 {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .container {
+  .container{
     width: 95vw;
     padding: 10px 15px 0px 20px;
   }
-  footer {
+  footer{
     margin-top: 20vh;
   }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */

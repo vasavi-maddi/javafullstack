@@ -1589,10 +1589,6 @@ section {
   color: #fff;
   text-decoration: none;
 }
-
-
-
-
 * {
   margin: 0;
   padding: 0;
@@ -1602,14 +1598,16 @@ section {
 body {
   background-color: #fafafa;
 }
-#search{
-width:20%;
-position:relative;
-left:70%;
-padding-top: 2%;
+#myInput{
+width:15%;
+margin-bottom:2%;
+position:absolute;
+left:72%;
+bottom: 67%;
+margin-top: 2%;
 font-family: "Open Sans", sans-serif;
 border-color:#0a0a0a;
-color: #47e835;
+color:#0a0a0a ;
 }
 /*.d-flex{
 width:20%;
