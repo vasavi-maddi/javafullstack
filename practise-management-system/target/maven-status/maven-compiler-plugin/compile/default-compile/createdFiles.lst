@@ -1,0 +1,4 @@
+com\revature\app\App.class
+com\revature\model\Patient.class
+com\revature\model\Appointment.class
+com\revature\util\HibernateUtil.class

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="patient" class="com.revature.model.Patient">
+    <property name="patientName" value="vasavi" />
+    <property name="email" value="vasavi@gmail.com" />
+    <property name="gender" value="female" />
+    <property name="phone" value="1234567890" />
+     
+    </bean>
+    
+    <bean id="appointment" class="com.revature.model.Appointment">
+    <property name="patientId" ref="patient" />
+    <property name="dateOfAppointment" value="21/02/2023" />
+    <property name="status" value="pending" />
+    </bean>
+    
+    <bean id="health_info" class="com.revature.model.HealthInfo">
+    <property name="patientId" ref="patient" />
+    <property name="appointmentId" ref="appointment" />
+    <property name="attendance" value="yes" />
+    <property name="testsDone" value="Bp=70/120,weight=60" />
+    </bean>
+</beans>
